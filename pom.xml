@@ -181,6 +181,11 @@
         <name>test</name>
         <url>http://localhost:8081/repository/test/</url>
         </repository>
+        <snapshotRepository>
+            <id>test</id>
+            <name>test</name>
+            <url>http://localhost:8081/repository/test/</url>
+        </snapshotRepository>
     </distributionManagement>
     <dependencyManagement>
         <dependencies>
@@ -274,6 +279,18 @@
                     </plugin>
                 </plugins>
             </build>
+            <distributionManagement>
+                <repository>
+                <id>test</id>
+                <name>test</name>
+                <url>http://localhost:8081/repository/test/</url>
+                </repository>
+                 <snapshotRepository>
+                    <id>test</id>
+                    <name>test</name>
+                    <url>http://localhost:8081/repository/test/</url>
+                </snapshotRepository>
+            </distributionManagement>
         </profile>
         <profile>
             <id>maven3</id>
@@ -387,6 +404,18 @@
                     </plugin>
                 </plugins>
             </build>
+            <distributionManagement>
+                <repository>
+                <id>test</id>
+                <name>test</name>
+                <url>http://localhost:8081/repository/test/</url>
+                </repository>
+                 <snapshotRepository>
+                    <id>test</id>
+                    <name>test</name>
+                    <url>http://localhost:8081/repository/test/</url>
+                </snapshotRepository>
+            </distributionManagement>
         </profile>
         <profile>
             <id>maven2</id>
@@ -426,6 +455,18 @@
                     </plugin>
                 </plugins>
             </build>
+            <distributionManagement>
+                <repository>
+                <id>test</id>
+                <name>test</name>
+                <url>http://localhost:8081/repository/test/</url>
+                </repository>
+                 <snapshotRepository>
+                    <id>test</id>
+                    <name>test</name>
+                    <url>http://localhost:8081/repository/test/</url>
+                </snapshotRepository>
+            </distributionManagement>
             <reporting>
                 <plugins>
                     <plugin>
