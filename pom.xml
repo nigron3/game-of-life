@@ -181,11 +181,6 @@
         <name>test</name>
         <url>http://localhost:8081/repository/test/</url>
         </repository>
-        <snapShotRepository>
-        <id>test</id>
-        <name>test</name>
-        <url>http://localhost:8081/repository/test/</url>
-        </snapShotRepository>
     </distributionManagement>
     <dependencyManagement>
         <dependencies>
